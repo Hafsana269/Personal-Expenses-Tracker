@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #060606;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.app {
+  background: white;
+  padding: 2rem;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+input, button {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #285fa7;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+li {
+  background: #eee;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
